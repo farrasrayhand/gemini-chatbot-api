@@ -1,9 +1,10 @@
-// Chat Toggle
-const toggleBtn = document.getElementById('chat-toggle-button');
-const chatContainer = document.getElementById('chat-container');
+// Toggle Chat Panel
+const toggleBtn = document.getElementById('chat-toggle');
+const chatPanel = document.getElementById('chat-panel');
 
 toggleBtn.addEventListener('click', () => {
-  chatContainer.classList.toggle('open');
+  chatPanel.classList.toggle('open');
+  toggleBtn.classList.toggle('open');
 });
 
 // Chat Logic

@@ -13,42 +13,47 @@
     <ul class="nav-links">
       <li><a href="#">Produk</a></li>
       <li><a href="#">Promo</a></li>
-      <li><a href="#">Bantuan</a></li>
     </ul>
   </nav>
 
-  <section class="hero-section">
-    <div class="hero-content">
-      <h1>Temukan Segala Kebutuhanmu di Nexus Store</h1>
-      <p>Belanja online jadi lebih mudah, cepat, dan terpercaya. Ribuan produk pilihan menanti Anda.</p>
-      <button class="btn-primary">Mulai Belanja</button>
-    </div>
-  </section>
+  <div class="main-layout">
+    <!-- Kiri: Landing -->
+    <div class="landing-panel">
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>Temukan Segala Kebutuhanmu di Nexus Store</h1>
+          <p>Belanja online jadi lebih mudah, cepat, dan terpercaya. Ribuan produk pilihan menanti Anda.</p>
+          <button class="btn-primary">Mulai Belanja</button>
+        </div>
+      </section>
 
-  <section class="products-section">
-    <h2>Produk Pilihan Kami</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <h3>Elektronik Canggih</h3>
-        <p>Smartphone, laptop, aksesoris terbaru dari brand ternama.</p>
-      </div>
-      <div class="product-card">
-        <h3>Fashion Terkini</h3>
-        <p>Pakaian pria, wanita, anak-anak, sepatu & tas.</p>
-      </div>
-      <div class="product-card">
-        <h3>Rumah & Gaya Hidup</h3>
-        <p>Peralatan dapur, dekorasi, kebersihan, dan hobi.</p>
-      </div>
+      <section class="products-section">
+        <h2>Produk Pilihan Kami</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <h3>📱 Elektronik</h3>
+            <p>Smartphone, laptop, aksesoris terbaru.</p>
+          </div>
+          <div class="product-card">
+            <h3>👕 Fashion</h3>
+            <p>Pakaian pria, wanita, sepatu & tas.</p>
+          </div>
+          <div class="product-card">
+            <h3>🏠 Rumah & Gaya</h3>
+            <p>Peralatan dapur, dekorasi, hobi.</p>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
 
-  <!-- Chat Widget -->
-  <div class="chat-widget-container">
-    <div class="chat-toggle-button" id="chat-toggle-button">
-      💬 CS Online
-    </div>
-    <div class="chat-container" id="chat-container">
+    <!-- Tombol Toggle Chat -->
+    <button class="chat-toggle" id="chat-toggle" title="Buka/Tutup Chat CS">
+      <span class="toggle-icon">💬</span>
+      <span class="toggle-label">CS</span>
+    </button>
+
+    <!-- Kanan: Chat CS -->
+    <div class="chat-panel" id="chat-panel">
       <header class="chat-header">
         <div class="chat-brand">
           <div class="logo-circle"></div>
@@ -66,7 +71,7 @@
       </div>
 
       <form id="chat-form" class="chat-input-area">
-        <input type="text" id="user-input" placeholder="Tanyakan seputar produk kami..." autocomplete="off" required />
+        <input type="text" id="user-input" placeholder="Tanyakan seputar produk..." autocomplete="off" required />
         <button type="submit">Kirim</button>
       </form>
     </div>
