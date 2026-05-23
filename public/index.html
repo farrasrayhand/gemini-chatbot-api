@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus Store | Belanja Mudah & Terpercaya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">Nexus Store</div>
+    <ul class="nav-links">
+      <li><a href="#">Produk</a></li>
+      <li><a href="#">Promo</a></li>
+      <li><a href="#">Bantuan</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Temukan Segala Kebutuhanmu di Nexus Store</h1>
+      <p>Belanja online jadi lebih mudah, cepat, dan terpercaya. Ribuan produk pilihan menanti Anda.</p>
+      <button class="btn-primary">Mulai Belanja</button>
+    </div>
+  </section>
+
+  <section class="products-section">
+    <h2>Produk Pilihan Kami</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <h3>Elektronik Canggih</h3>
+        <p>Smartphone, laptop, aksesoris terbaru dari brand ternama.</p>
+      </div>
+      <div class="product-card">
+        <h3>Fashion Terkini</h3>
+        <p>Pakaian pria, wanita, anak-anak, sepatu & tas.</p>
+      </div>
+      <div class="product-card">
+        <h3>Rumah & Gaya Hidup</h3>
+        <p>Peralatan dapur, dekorasi, kebersihan, dan hobi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chat Widget -->
+  <div class="chat-widget-container">
+    <div class="chat-toggle-button" id="chat-toggle-button">
+      💬 CS Online
+    </div>
+    <div class="chat-container" id="chat-container">
+      <header class="chat-header">
+        <div class="chat-brand">
+          <div class="logo-circle"></div>
+          <h1>Nexus CS</h1>
+        </div>
+        <div class="chat-status">● Online</div>
+      </header>
+
+      <div id="chat-box" class="chat-box">
+        <div class="message bot">
+          <div class="msg-content">
+            Halo! Saya Customer Service Nexus. Ada yang bisa saya bantu terkait produk atau layanan kami?
+          </div>
+        </div>
+      </div>
+
+      <form id="chat-form" class="chat-input-area">
+        <input type="text" id="user-input" placeholder="Tanyakan seputar produk kami..." autocomplete="off" required />
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+.env
+
+# Lock file
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvsps
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+build/
+coverage/
+
+# Misc
+.DS_Store
+*.pem

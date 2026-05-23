@@ -1,0 +1,25 @@
+{
+  "name": "gemini-chatbot-api",
+  "version": "1.0.0",
+  "description": "AI Chatbot using Google Gemini API (gemini-2.5-flash)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "ai",
+    "node.js",
+    "express"
+  ],
+  "author": "Hermes Agent",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
