@@ -66,4 +66,10 @@ Persona: agen customer service Nexus Store — marketplace online yang menjual e
 
 ---
 
+## Screenshot
+
+![Nexus Store Chatbot](public/screenshot.png)
+
+---
+
 Built with ❤️ for Hacktiv8 Final Project.
